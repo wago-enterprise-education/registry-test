@@ -11,7 +11,8 @@ RUN apk --no-cache --no-progress --update add --repository http://dl-cdn.alpinel
 #    update-ca-certificates && \
     apk --no-cache --no-progress --update add \
     python3 \
-    py3-pip
+    py3-pip \ 
+    bash
 
 
 CMD ["python3"]
